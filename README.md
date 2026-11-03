@@ -1,6 +1,6 @@
 # Airbnb Price Prediction in Paris
 
-*Machine learning project · CentraleSupélec*
+*Machine learning project · CentraleSupélec, Université Paris-Saclay*
 
 ***
 
