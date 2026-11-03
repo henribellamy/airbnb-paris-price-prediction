@@ -1,14 +1,14 @@
 # Airbnb Price Prediction in Paris
 
-*Machine learning project · Université Paris-Saclay (2026)*
+*Machine learning project · CentraleSupélec*
 
 ***
 
 ## Overview
 
-This project predicts the nightly price of a Paris Airbnb listing **at the moment it goes online**, using only the information a new host can provide: location, size, amenities and host profile.
+This project predicts the nightly price of a Paris Airbnb listing at the moment it goes online, using only the information a new host can provide: location, size, amenities and host profile.
 
-The project uses real data: 37,363 short-term listings from the Inside Airbnb snapshot of Paris (September 2026). We compare median baselines, Ridge regression, k-nearest neighbours, random forest and XGBoost. Since hosts often publish many near-identical listings, models are always evaluated on **hosts they have never seen**.
+The project uses real data: 37,363 short-term listings from the Inside Airbnb snapshot of Paris (September 2026). We compare median baselines, Ridge regression, k-nearest neighbours, random forest and XGBoost. Since hosts often publish many near-identical listings, models are always evaluated on hosts they have never seen.
 
 ***
 
@@ -22,7 +22,7 @@ Evaluation on a held-out test set of 20% of hosts:
 | Median by arrondissement | 0.606 | 153 | 0.11 |
 | **XGBoost** | **0.391** | **102** | **0.63** |
 
-XGBoost reduces the error of the best baseline by about a third. The price is driven mainly by **size and location**; luxury listings are underestimated, as their standing is described in the text rather than in structured columns.
+XGBoost reduces the error of the best baseline by about a third. The price is driven mainly by size and location; luxury listings are underestimated, as their standing is described in the text rather than in structured columns.
 
 Full methodology and analysis in the [report](report.pdf).
 
