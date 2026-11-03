@@ -1,7 +1,3 @@
-"""Download the Inside Airbnb Paris data (snapshot of 16 September 2026) into data/ and check the MD5.
-
-Usage: python data.py
-"""
 import hashlib
 import urllib.request
 from pathlib import Path
