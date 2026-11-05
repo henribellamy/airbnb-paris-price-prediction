@@ -43,13 +43,7 @@ To reproduce: `pip install -r requirements.txt`, `python data.py`, then run the 
 
 ## Technical stack
 
-Python · pandas · scikit-learn · XGBoost · GeoPandas · Matplotlib · Jupyter
-
-***
-
-## Credits
-
-Data © [Inside Airbnb](https://insideairbnb.com/get-the-data/), used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Personal data are dropped and all results are aggregated.
+Python · pandas · scikit-learn · XGBoost · Matplotlib · Jupyter
 
 ***
 
